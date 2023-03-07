@@ -2,6 +2,8 @@
 
 This repo hosts the **frontend** and backend (**tiptophub**) of an app that allows users to order  
 simulated items from real restaurants based on the types of food served at the restaurant.  
-Simply enter a zipcode, browse the top 5 restaurants provided, and place your (fake) order!  
+
+Once you enter a valid US zipcode, you will be shown the top 5 restaurants in that area. 
+Add your simulated items to your cart, enter your details, and place your 'fake' order!  
 
 Built with React.js and Django. 
