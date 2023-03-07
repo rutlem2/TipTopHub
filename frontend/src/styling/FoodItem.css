@@ -1,0 +1,94 @@
+.food-card-area {
+    background-color: white;
+    border: 1px solid #aaa;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.food-card-content {
+    align-content: center;
+    display: grid;
+    font-size: 14pt;
+    width: 100%;
+}
+
+.card-price {
+    border-right: 1px solid salmon;
+    font-size: 24pt;
+    height: 3rem;
+    padding-right: 0.5rem;
+    width: fit-content;
+}
+
+.restaurant-title {
+    font-size: 18pt;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.cart-icon-wrapper {
+    align-items: center;
+    border: 2px solid darkolivegreen;
+    border-radius: 50%;
+    box-shadow: 1px 5px 5px #aaa;
+    cursor: pointer;
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    padding: 5px;
+    width: 2.5rem;
+}
+
+.cart-icon-wrapper:hover {
+    background-color: lightgreen;
+}
+
+.cart-icon {
+    height: 1.4rem;
+    position: relative;
+    top: 0;
+    width: 1.4rem;
+}
+
+.hovertext {
+    height: 2.4rem;
+    margin: -.3rem 0 0 -.3rem;
+    position: absolute;
+    width: 2.4rem;
+    z-index: 2;
+  }
+  
+.hovertext:before {
+    background-color: black;
+    border-radius: 5px;
+    content: attr(data-hover);
+    color: #fff;
+    height: fit-content;
+    left: -7rem;
+    opacity: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: opacity .3s linear;
+    width: 100px;
+    visibility: hidden;
+    z-index: 1;
+  }
+  
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+.add-to-cart-text {
+    opacity: 0;
+}
+
+.add-to-cart-text:hover {
+    opacity: 1;
+    z-index: 9;
+}

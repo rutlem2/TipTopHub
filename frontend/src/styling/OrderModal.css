@@ -1,0 +1,55 @@
+#back-button, #cancel-button {
+    margin-right: auto;
+}
+
+.btn-close {
+    position: absolute;
+    right: 2rem;
+    top: 0.8rem;
+}
+
+.cart-item {
+    display: grid;
+    grid-template-columns: 24ch 9ch 10ch auto auto;
+    margin-bottom: 0.8rem;
+}
+
+.cart-item-quantity {
+    height: 1.5rem;
+    padding-right: 0.2rem;
+    text-align: end;
+}
+
+.cart-item-price {
+    padding-left: 0.5rem;
+}
+
+.cart-summary {
+    border-top: 2.5px solid lightcoral;
+    margin-top: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: end;
+    width: 100%;
+}
+
+#cart-summary-tp {
+    font-weight: bold;
+}
+
+.cart-explainer-text {
+    text-align: center;
+}
+
+.delete_icon {
+    height: 1rem;
+    margin: auto auto;
+    position: relative;
+    width: 1rem;
+}
+
+.edit_icon {
+    height: 1rem;
+    margin: auto auto;
+    position: relative;
+    width: 1rem;
+}

@@ -1,0 +1,49 @@
+.search {
+    margin-top: 3rem;
+}
+
+.searchbar {
+    align-content: center;
+    border: 2.7px solid gray;
+    border-radius: 28px;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    width: 27rem;
+}
+
+.searchbar:focus {
+    border: none;
+    box-shadow: 1px 5px 2px gray;
+    outline: none;
+}
+
+.searchbar-input {
+    border: 0;
+    border-radius: 28px 0 0 28px;
+    height: 100%;
+    padding: 1rem;
+    width: 92%;
+}
+
+.searchbar-glass {
+    background: lightblue;
+    border: 0;
+    border-radius: 0 20px 20px 0;
+    width: 2.5rem;
+}
+
+.searchbar-glass:hover {
+    background: rgb(137, 204, 226);
+}
+
+.searchbar-glass:active {
+    background: rgb(58, 181, 223);
+}
+
+.searchbar-glass #search-glass-icon {
+    padding-top: 2px;
+    width: 1.5rem
+}

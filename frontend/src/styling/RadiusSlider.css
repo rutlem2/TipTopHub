@@ -1,0 +1,28 @@
+.slider-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    width: fit-content;
+    z-index: 2;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.radius-slider {
+    cursor: grab;
+}
+
+.radius-slider:active {
+    cursor: grabbing;
+}
+
+.slider-explain {
+    display: flex;
+}

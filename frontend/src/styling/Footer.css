@@ -1,0 +1,15 @@
+.footer_wrapper {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.footer {
+    text-align: center;
+    margin: 0;
+}
+
+.logos {
+    text-align: center;
+    margin: 0;
+}
