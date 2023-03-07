@@ -7,3 +7,5 @@ Once you enter a valid US zipcode, you will be shown the top 5 restaurants in th
 Add your simulated items to your cart, enter your details, and place your 'fake' order!    
 
 Built with React.js, Django, Python, and Yelp. 
+
+<img src="/images_for_repo/Home.png.png" width="200" title="Home">
