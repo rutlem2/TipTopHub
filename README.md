@@ -1,4 +1,4 @@
-# TipTopHub
+# TipTopHub <img src="/logo_nobg_sm.png" width="50" title="Logo">
 
 This repo hosts the **frontend** & **backend** of an app that allows users to order  
 simulated items from real restaurants based on the types of food served at the restaurant.  
