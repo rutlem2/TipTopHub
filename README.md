@@ -8,4 +8,5 @@ Add your simulated items to your cart, enter your details, and place your 'fake'
 
 Built with React.js, Django, Python, and Yelp. 
 
-<img src="/images_for_repo/Home.png" width="200" title="Home">
+<img src="/images_for_repo/Home.png" width="600" title="Home">
+<img src="/images_for_repo/ReviewCart.png" width="600" title="Home">
