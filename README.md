@@ -6,4 +6,4 @@ simulated items from real restaurants based on the types of food served at the r
 Once you enter a valid US zipcode, you will be shown the top 5 restaurants in that area.  
 Add your simulated items to your cart, enter your details, and place your 'fake' order!    
 
-Built with React.js, Django, and Yelp. 
+Built with React.js, Django, Python, and Yelp. 
